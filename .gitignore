@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Local input/output files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Keep generated violation directory but ignore screenshots.
+app/violations/*
+!app/violations/.gitkeep
+
+# YOLO weights are usually large. Put your real model at model/best.pt locally.
+model/*.pt
+!model/.gitkeep
