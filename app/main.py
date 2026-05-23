@@ -18,7 +18,7 @@ from utils import (
 
 
 # Ganti nilai ini ke path video, indeks kamera, RTSP, atau HTTP stream CCTV.
-VIDEO_SOURCE = "video.mp4"
+VIDEO_SOURCE = "https://stream.lihatcctv.com/stream/0196ebdf-efdd-7307-adfa-b0273b207a09"
 
 # Letakkan model custom YOLOv8 Anda di model/best.pt.
 BASE_DIR = Path(__file__).resolve().parents[1]
